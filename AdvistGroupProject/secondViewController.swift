@@ -15,7 +15,7 @@ class secondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func firstURL(_ sender: UIButton) {
+    @IBAction func firstURL(_ sender: UIButton) {UIApplication.shared.open(URL(string:"https://www.scmp.com/news/world/united-states-canada/article/3138669/canada-shaken-new-discovery-751-unmarked-graves")! as URL, options: [:], completionHandler: nil)
     }
     
     /*
