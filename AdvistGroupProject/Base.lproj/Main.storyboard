@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -14,13 +14,78 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 11.42.47 AM" translatesAutoresizingMaskIntoConstraints="NO" id="6r1-YY-Pwg">
+                                <rect key="frame" x="8" y="14" width="399" height="882"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bR6-7c-C42">
+                                <rect key="frame" x="86" y="535" width="243" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="VIEW OUR STORIES HERE">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="viewOurStories:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Kn-9M-8tf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqM-QJ-GUg">
+                                <rect key="frame" x="162" y="827" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="SOURCES">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sourcesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Cw-Ct-qtm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXU-5u-AOG">
+                                <rect key="frame" x="64" y="145" width="125" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ADVIST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAu-iy-60P">
+                                <rect key="frame" x="59" y="196" width="303" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 11.55.56 AM" translatesAutoresizingMaskIntoConstraints="NO" id="PcN-cB-0M5">
+                                <rect key="frame" x="14" y="602" width="386" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your all-in-one source of information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Tc-So-P5D">
+                                <rect key="frame" x="61" y="282" width="301" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.89803921568627454" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="78"/>
+            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pi0-X3-wjv">
+            <objects>
+                <viewController id="iEV-s8-pdq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ig1-Sc-8Zy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="771.01449275362324" y="77.678571428571431"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Screen Shot 2021-07-21 at 11.42.47 AM" width="544" height="1209"/>
+        <image name="Screen Shot 2021-07-21 at 11.55.56 AM" width="437" height="252"/>
+    </resources>
 </document>
