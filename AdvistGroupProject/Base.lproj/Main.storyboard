@@ -15,13 +15,92 @@
                     <view key="view" contentMode="scaleToFill" id="JuH-Ja-cVl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9j-I9-rRz">
+                                <rect key="frame" x="15" y="65" width="385" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cX7-6H-c0o">
+                                <rect key="frame" x="665" y="146" width="422" height="384"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Remains of 751 indigenous children found at former Catholic residential school in Canada: 
+https://www.scmp.com/news/world/united-states-canada/article/3138669/canada-shaken-new-discovery-751-unmarked-graves
+
+Covid-19 Decision on vaccinations for under-18s “within days” (UK): https://www.bbc.com/news/uk-57876608
+
+Environmental concerns grow as space tourism lifts off: 
+https://phys.org/news/2021-07-environmental-space-tourism.html
+
+
+News Sources:
+South China Morning Post
+BBC News
+Phys.org
+</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiI-ch-v2d">
+                                <rect key="frame" x="-598" y="247" width="591" height="319"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Remains of 751 indigenous children found at former Catholic residential school in Canada: 
+https://www.scmp.com/news/world/united-states-canada/article/3138669/canada-shaken-new-discovery-751-unmarked-graves
+
+Covid-19 Decision on vaccinations for under-18s “within days” (UK): https://www.bbc.com/news/uk-57876608
+
+Environmental concerns grow as space tourism lifts off: 
+https://phys.org/news/2021-07-environmental-space-tourism.html
+
+
+News Sources:
+South China Morning Post
+BBC News
+Phys.org
+
+
+To access the Google Document:  https://docs.google.com/document/d/1xesL9ThNXJiwRivn0743BvCrWMYeBIqvVwLsDoNxBO8/edit?usp=sharing
+
+</mutableString>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyN-kz-R52">
+                                <rect key="frame" x="20" y="157" width="374" height="676"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Remains of 751 indigenous children found at former Catholic residential school in Canada: 
+https://www.scmp.com/news/world/united-states-canada/article/3138669/canada-shaken-new-discovery-751-unmarked-graves
+
+Covid-19 Decision on vaccinations for under-18s “within days” (UK): https://www.bbc.com/news/uk-57876608
+
+Environmental concerns grow as space tourism lifts off: 
+https://phys.org/news/2021-07-environmental-space-tourism.html
+
+
+News Sources:
+South China Morning Post
+BBC News
+Phys.org
+
+To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRivn0743BvCrWMYeBIqvVwLsDoNxBO8/edit?usp=sharing
+
+</mutableString>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="J8l-Ba-JYb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.89803921568627454" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5vM-BG-of8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1522" y="78"/>
+            <point key="canvasLocation" x="18.840579710144929" y="739.95535714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -32,7 +111,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2021-07-21 at 11.42.47 AM" translatesAutoresizingMaskIntoConstraints="NO" id="6r1-YY-Pwg">
-                                <rect key="frame" x="20" y="0.0" width="399" height="882"/>
+                                <rect key="frame" x="20" y="7" width="399" height="882"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqM-QJ-GUg">
                                 <rect key="frame" x="162" y="886" width="91" height="35"/>
@@ -63,14 +142,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="With sources you can trust," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBe-US-7ON">
-                                <rect key="frame" x="81" y="371" width="260" height="25.5"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Advist is here to guide you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IX-r9-Y0S">
-                                <rect key="frame" x="85" y="412" width="249" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Advist is here to guide you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IX-r9-Y0S">
+                                <rect key="frame" x="92" y="412" width="249" height="17"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -82,13 +155,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="confusing status quo." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jO-1h-gZ0">
-                                <rect key="frame" x="107" y="482" width="195" height="25.5"/>
+                                <rect key="frame" x="107" y="470" width="195" height="25.5"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU5-c4-tXs">
-                                <rect key="frame" x="50" y="534" width="309" height="35"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Screen Shot 2021-07-21 at 11.55.56 AM" translatesAutoresizingMaskIntoConstraints="NO" id="PcN-cB-0M5">
+                                <rect key="frame" x="38" y="593" width="333" height="206"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="With sources you can trust," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBe-US-7ON">
+                                <rect key="frame" x="81" y="378" width="260" height="25.5"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU5-c4-tXs">
+                                <rect key="frame" x="56" y="527" width="309" height="35"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <state key="normal" title="VIEW OUR STORIES HERE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
@@ -97,9 +179,6 @@
                                     <segue destination="dPx-bm-EIN" kind="show" id="Gyq-5A-h1p"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Screen Shot 2021-07-21 at 11.55.56 AM" translatesAutoresizingMaskIntoConstraints="NO" id="PcN-cB-0M5">
-                                <rect key="frame" x="38" y="593" width="333" height="206"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.89803921568627454" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
