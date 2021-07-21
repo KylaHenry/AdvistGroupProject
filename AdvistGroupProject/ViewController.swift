@@ -9,8 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBAction func viewOurStoriesButton(_ sender: Any) {
-    }
+   
     
     @IBAction func sourcesButton(_ sender: Any) {
     }
