@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80BA2CC26A8A1B000DADBE0 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BA2CB26A8A1B000DADBE0 /* secondViewController.swift */; };
 		A849526326A7A38B00AE4AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849526226A7A38B00AE4AF7 /* AppDelegate.swift */; };
 		A849526526A7A38B00AE4AF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849526426A7A38B00AE4AF7 /* SceneDelegate.swift */; };
 		A849526726A7A38B00AE4AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849526626A7A38B00AE4AF7 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A80BA2CB26A8A1B000DADBE0 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		A849525F26A7A38B00AE4AF7 /* AdvistGroupProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvistGroupProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A849526226A7A38B00AE4AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A849526426A7A38B00AE4AF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				A849527026A7A38C00AE4AF7 /* LaunchScreen.storyboard */,
 				A849527326A7A38C00AE4AF7 /* Info.plist */,
 				A849526B26A7A38B00AE4AF7 /* AdvistGroupProject.xcdatamodeld */,
+				A80BA2CB26A8A1B000DADBE0 /* secondViewController.swift */,
 			);
 			path = AdvistGroupProject;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				A849526726A7A38B00AE4AF7 /* ViewController.swift in Sources */,
 				A849526326A7A38B00AE4AF7 /* AppDelegate.swift in Sources */,
 				A849526D26A7A38B00AE4AF7 /* AdvistGroupProject.xcdatamodeld in Sources */,
+				A80BA2CC26A8A1B000DADBE0 /* secondViewController.swift in Sources */,
 				A849526526A7A38B00AE4AF7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
