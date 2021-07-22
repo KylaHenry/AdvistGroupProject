@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -110,20 +109,10 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2021-07-21 at 11.42.47 AM" translatesAutoresizingMaskIntoConstraints="NO" id="6r1-YY-Pwg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 11.42.47 AM" translatesAutoresizingMaskIntoConstraints="NO" id="6r1-YY-Pwg">
                                 <rect key="frame" x="20" y="0.0" width="399" height="882"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqM-QJ-GUg">
-                                <rect key="frame" x="162" y="886" width="91" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="SOURCES">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="sourcesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Cw-Ct-qtm"/>
-                                </connections>
-                            </button>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXU-5u-AOG">
                                 <rect key="frame" x="59" y="139" width="143" height="23"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
@@ -142,8 +131,9 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2021-07-21 at 11.55.56 AM" translatesAutoresizingMaskIntoConstraints="NO" id="PcN-cB-0M5">
-                                <rect key="frame" x="41" y="520" width="333" height="341.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 11.55.56 AM" translatesAutoresizingMaskIntoConstraints="NO" id="PcN-cB-0M5">
+                                <rect key="frame" x="52" y="548" width="322" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="With sources you can trust, Advist is here to guide you through the messy and confusing status quo. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccV-4X-Gar">
                                 <rect key="frame" x="67" y="366" width="303" height="66.5"/>
@@ -151,43 +141,40 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU5-c4-tXs">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU5-c4-tXs">
                                 <rect key="frame" x="86" y="520" width="243" height="35"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <state key="normal" title="VIEW OUR STORIES HERE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dPx-bm-EIN" kind="show" id="kfY-Je-y99"/>
+                                    <action selector="storiesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I2z-4d-Ahc"/>
+                                    <segue destination="dPx-bm-EIN" kind="show" id="lwB-vn-f7P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqM-QJ-GUg">
+                                <rect key="frame" x="174" y="815" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="SOURCES">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sourcesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Cw-Ct-qtm"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.89803921568627454" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PcN-cB-0M5" secondAttribute="bottom" constant="48" id="11Y-37-TaZ"/>
-                            <constraint firstItem="OAu-iy-60P" firstAttribute="top" secondItem="UXU-5u-AOG" secondAttribute="bottom" constant="38" id="1Bp-4G-PUF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rU5-c4-tXs" secondAttribute="trailing" constant="85" id="4LY-y7-NTl"/>
-                            <constraint firstAttribute="bottom" secondItem="6r1-YY-Pwg" secondAttribute="bottom" id="5bC-xX-he0"/>
-                            <constraint firstItem="PcN-cB-0M5" firstAttribute="top" secondItem="ccV-4X-Gar" secondAttribute="bottom" constant="12.5" id="8DC-q2-MIe"/>
-                            <constraint firstItem="PcN-cB-0M5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="Dpq-4Q-djU"/>
-                            <constraint firstItem="9Tc-So-P5D" firstAttribute="top" secondItem="OAu-iy-60P" secondAttribute="bottom" constant="8" symbolic="YES" id="E5k-AR-5nB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ccV-4X-Gar" secondAttribute="trailing" constant="44" id="FFj-PA-OC0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6r1-YY-Pwg" secondAttribute="trailing" constant="7" id="IZX-VT-7w1"/>
-                            <constraint firstItem="9Tc-So-P5D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="PtH-mk-UH6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Tc-So-P5D" secondAttribute="trailing" constant="40" id="SpU-Uu-SKi"/>
-                            <constraint firstItem="UXU-5u-AOG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="95" id="UAR-3P-cH4"/>
-                            <constraint firstItem="rU5-c4-tXs" firstAttribute="top" secondItem="ccV-4X-Gar" secondAttribute="bottom" constant="71.5" id="axZ-ND-xnE"/>
-                            <constraint firstItem="6r1-YY-Pwg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="hz8-1q-ah9"/>
-                            <constraint firstItem="ccV-4X-Gar" firstAttribute="top" secondItem="9Tc-So-P5D" secondAttribute="bottom" constant="82" id="iqY-q0-X7X"/>
-                            <constraint firstItem="OAu-iy-60P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="kzv-RE-yJv"/>
-                            <constraint firstItem="rU5-c4-tXs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="nOf-wn-vOr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rU5-c4-tXs" secondAttribute="bottom" constant="295.5" id="p8E-JD-rSb"/>
-                            <constraint firstItem="UXU-5u-AOG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="vgv-EV-9kh"/>
-                            <constraint firstItem="ccV-4X-Gar" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="xBg-jm-0iZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UXU-5u-AOG" secondAttribute="trailing" constant="212" id="xf0-IB-nPf"/>
-                            <constraint firstItem="6r1-YY-Pwg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="14" id="yIT-Xg-bc2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PcN-cB-0M5" secondAttribute="trailing" constant="40" id="z1h-ad-E7A"/>
+                            <constraint firstItem="rU5-c4-tXs" firstAttribute="top" secondItem="ccV-4X-Gar" secondAttribute="bottom" constant="87.5" id="6yY-hu-6Ya"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OAu-iy-60P" secondAttribute="trailing" constant="120" id="6yx-FZ-A7Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ccV-4X-Gar" secondAttribute="trailing" constant="44" id="AaF-sF-KGz"/>
+                            <constraint firstItem="ccV-4X-Gar" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="WgL-n3-3ja"/>
+                            <constraint firstItem="ccV-4X-Gar" firstAttribute="top" secondItem="9Tc-So-P5D" secondAttribute="bottom" constant="82" id="gNj-bO-bsz"/>
+                            <constraint firstItem="OAu-iy-60P" firstAttribute="top" secondItem="UXU-5u-AOG" secondAttribute="bottom" constant="38" id="izh-zS-ddD"/>
+                            <constraint firstItem="OAu-iy-60P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="vmE-o8-fk0"/>
+                            <constraint firstItem="9Tc-So-P5D" firstAttribute="top" secondItem="OAu-iy-60P" secondAttribute="bottom" constant="8" symbolic="YES" id="z71-FH-TFg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="C5M-6o-mpV"/>
@@ -263,7 +250,7 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.20.42 PM" translatesAutoresizingMaskIntoConstraints="NO" id="wQ3-eW-lD1">
-                                <rect key="frame" x="-920.5" y="360.5" width="1182" height="163"/>
+                                <rect key="frame" x="-921" y="361" width="863" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.24.07 PM" translatesAutoresizingMaskIntoConstraints="NO" id="92w-vW-PMm">
@@ -350,7 +337,7 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XDu-6w-8Th"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.99855619669999995" green="0.89909386629999999" blue="0.83136063810000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="XDu-6w-8Th" firstAttribute="trailing" secondItem="Uda-jg-aq1" secondAttribute="trailing" constant="18" id="7qK-My-Rao"/>
                             <constraint firstItem="XiP-Nq-4VD" firstAttribute="top" secondItem="Uda-jg-aq1" secondAttribute="bottom" constant="3" id="Mza-iD-KpP"/>
@@ -373,8 +360,5 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
         <image name="Screen Shot 2021-07-21 at 10.24.07 PM" width="754" height="499"/>
         <image name="Screen Shot 2021-07-21 at 11.42.47 AM" width="544" height="1209"/>
         <image name="Screen Shot 2021-07-21 at 11.55.56 AM" width="437" height="252"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

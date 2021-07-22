@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     @IBAction func sourcesButton(_ sender: Any) {
     }
     
+    @IBAction func storiesButton(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
