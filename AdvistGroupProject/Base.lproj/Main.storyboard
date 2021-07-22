@@ -142,8 +142,8 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Screen Shot 2021-07-21 at 11.55.56 AM" translatesAutoresizingMaskIntoConstraints="NO" id="PcN-cB-0M5">
-                                <rect key="frame" x="41" y="562" width="333" height="252"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2021-07-21 at 11.55.56 AM" translatesAutoresizingMaskIntoConstraints="NO" id="PcN-cB-0M5">
+                                <rect key="frame" x="41" y="520" width="333" height="341.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="With sources you can trust, Advist is here to guide you through the messy and confusing status quo. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccV-4X-Gar">
                                 <rect key="frame" x="67" y="366" width="303" height="66.5"/>
@@ -151,14 +151,14 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU5-c4-tXs">
-                                <rect key="frame" x="86" y="504" width="243" height="62.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU5-c4-tXs">
+                                <rect key="frame" x="86" y="520" width="243" height="35"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <state key="normal" title="VIEW OUR STORIES HERE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dPx-bm-EIN" kind="show" id="Gyq-5A-h1p"/>
+                                    <segue destination="dPx-bm-EIN" kind="show" id="kfY-Je-y99"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -177,10 +177,12 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
                             <constraint firstItem="9Tc-So-P5D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="PtH-mk-UH6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Tc-So-P5D" secondAttribute="trailing" constant="40" id="SpU-Uu-SKi"/>
                             <constraint firstItem="UXU-5u-AOG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="95" id="UAR-3P-cH4"/>
+                            <constraint firstItem="rU5-c4-tXs" firstAttribute="top" secondItem="ccV-4X-Gar" secondAttribute="bottom" constant="71.5" id="axZ-ND-xnE"/>
                             <constraint firstItem="6r1-YY-Pwg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="hz8-1q-ah9"/>
                             <constraint firstItem="ccV-4X-Gar" firstAttribute="top" secondItem="9Tc-So-P5D" secondAttribute="bottom" constant="82" id="iqY-q0-X7X"/>
                             <constraint firstItem="OAu-iy-60P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="kzv-RE-yJv"/>
                             <constraint firstItem="rU5-c4-tXs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="nOf-wn-vOr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rU5-c4-tXs" secondAttribute="bottom" constant="295.5" id="p8E-JD-rSb"/>
                             <constraint firstItem="UXU-5u-AOG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="vgv-EV-9kh"/>
                             <constraint firstItem="ccV-4X-Gar" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="xBg-jm-0iZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UXU-5u-AOG" secondAttribute="trailing" constant="212" id="xf0-IB-nPf"/>
@@ -199,7 +201,7 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
             <objects>
                 <viewController id="dPx-bm-EIN" customClass="secondViewController" customModule="AdvistGroupProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rKi-Gb-PEV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 1.23.05 PM" translatesAutoresizingMaskIntoConstraints="NO" id="bF2-oK-VjR">
@@ -357,6 +359,7 @@ To view the Google Document: https://docs.google.com/document/d/1xesL9ThNXJiwRiv
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Mf0-Ud-HaK"/>
+                    <size key="freeformSize" width="414" height="1600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tuz-Ce-SVE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

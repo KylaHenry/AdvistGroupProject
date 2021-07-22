@@ -8,7 +8,12 @@
 import UIKit
 
 class secondViewController: UIViewController {
-
+    
+    
+    @IBAction func test(_sender: Any){
+        print("test")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
