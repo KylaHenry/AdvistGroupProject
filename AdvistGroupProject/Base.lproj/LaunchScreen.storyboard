@@ -15,24 +15,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-07-21 at 12.11.49 PM" translatesAutoresizingMaskIntoConstraints="NO" id="eUD-pv-ipn">
-                                <rect key="frame" x="33" y="189" width="349" height="378"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-07-22 at 11.10.32 AM" translatesAutoresizingMaskIntoConstraints="NO" id="KMz-HM-DHL">
+                                <rect key="frame" x="39" y="282" width="316" height="201"/>
                             </imageView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="iuf-h9-HzZ">
-                                <rect key="frame" x="94" y="406" width="226" height="198"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="b9F-yS-yWt">
+                                <rect key="frame" x="182" y="483" width="51" height="62"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.8980392157" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eUD-pv-ipn" secondAttribute="bottom" constant="295" id="9Tj-Sa-sW2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iuf-h9-HzZ" secondAttribute="trailing" constant="94" id="CGn-Kb-N3H"/>
-                            <constraint firstItem="iuf-h9-HzZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="362" id="Chr-PL-DKj"/>
-                            <constraint firstItem="iuf-h9-HzZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="HIZ-Xe-ENJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iuf-h9-HzZ" secondAttribute="bottom" constant="258" id="WxK-Xs-ldT"/>
-                            <constraint firstItem="eUD-pv-ipn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="gUF-70-okf"/>
-                            <constraint firstItem="eUD-pv-ipn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="kH9-kx-fEz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eUD-pv-ipn" secondAttribute="trailing" constant="32" id="kYM-Jh-UIB"/>
+                            <constraint firstItem="b9F-yS-yWt" firstAttribute="top" secondItem="KMz-HM-DHL" secondAttribute="bottom" id="6OL-I6-QTK"/>
+                            <constraint firstItem="KMz-HM-DHL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="238" id="9yk-bQ-VLj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KMz-HM-DHL" secondAttribute="trailing" constant="59" id="HmU-FR-3E4"/>
+                            <constraint firstItem="b9F-yS-yWt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="182" id="PCL-nE-n8k"/>
+                            <constraint firstItem="KMz-HM-DHL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="TDy-iE-jMA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b9F-yS-yWt" secondAttribute="bottom" constant="317" id="V8L-Eo-2Cd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KMz-HM-DHL" secondAttribute="bottom" constant="379" id="gJa-Rl-89k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b9F-yS-yWt" secondAttribute="trailing" constant="181" id="xlC-7D-6Bw"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -42,6 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2021-07-21 at 12.11.49 PM" width="786" height="496"/>
+        <image name="Screen Shot 2021-07-22 at 11.10.32 AM" width="1264" height="772"/>
     </resources>
 </document>
