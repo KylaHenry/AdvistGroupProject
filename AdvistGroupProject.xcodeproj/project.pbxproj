@@ -18,6 +18,7 @@
 		A849527D26A7A38C00AE4AF7 /* AdvistGroupProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849527C26A7A38C00AE4AF7 /* AdvistGroupProjectTests.swift */; };
 		A849528826A7A38C00AE4AF7 /* AdvistGroupProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849528726A7A38C00AE4AF7 /* AdvistGroupProjectUITests.swift */; };
 		A87FEDC526A9EE9500C88F9A /* sourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87FEDC426A9EE9500C88F9A /* sourcesViewController.swift */; };
+		A87FEDC726AA1FEB00C88F9A /* petitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87FEDC626AA1FEB00C88F9A /* petitionsViewController.swift */; };
 		A8FCD95426A9F4ED0064EBD3 /* ToolBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FCD95326A9F4ED0064EBD3 /* ToolBarTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		A849528726A7A38C00AE4AF7 /* AdvistGroupProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvistGroupProjectUITests.swift; sourceTree = "<group>"; };
 		A849528926A7A38C00AE4AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A87FEDC426A9EE9500C88F9A /* sourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sourcesViewController.swift; sourceTree = "<group>"; };
+		A87FEDC626AA1FEB00C88F9A /* petitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petitionsViewController.swift; sourceTree = "<group>"; };
 		A8FCD95326A9F4ED0064EBD3 /* ToolBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				A80BA2CB26A8A1B000DADBE0 /* secondViewController.swift */,
 				A87FEDC426A9EE9500C88F9A /* sourcesViewController.swift */,
 				A8FCD95326A9F4ED0064EBD3 /* ToolBarTableViewController.swift */,
+				A87FEDC626AA1FEB00C88F9A /* petitionsViewController.swift */,
 			);
 			path = AdvistGroupProject;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				A849526D26A7A38B00AE4AF7 /* AdvistGroupProject.xcdatamodeld in Sources */,
 				A80BA2CC26A8A1B000DADBE0 /* secondViewController.swift in Sources */,
 				A849526526A7A38B00AE4AF7 /* SceneDelegate.swift in Sources */,
+				A87FEDC726AA1FEB00C88F9A /* petitionsViewController.swift in Sources */,
 				A8FCD95426A9F4ED0064EBD3 /* ToolBarTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
