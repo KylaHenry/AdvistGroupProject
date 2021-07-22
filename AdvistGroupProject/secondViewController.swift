@@ -18,6 +18,12 @@ class secondViewController: UIViewController {
     @IBAction func firstURL(_ sender: UIButton) {UIApplication.shared.open(URL(string:"https://www.scmp.com/news/world/united-states-canada/article/3138669/canada-shaken-new-discovery-751-unmarked-graves")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func secondURL(_ sender: UIButton) {UIApplication.shared.open(URL (string:"https://www.bbc.com/news/uk-57876608")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func thirdURL(_ sender: UIButton) {UIApplication.shared.open(URL(string:"https://phys.org/news/2021-07-environmental-space-tourism.html")! as URL, options: [:], completionHandler: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
