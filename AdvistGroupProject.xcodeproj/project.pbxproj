@@ -17,6 +17,7 @@
 		A849527226A7A38C00AE4AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A849527026A7A38C00AE4AF7 /* LaunchScreen.storyboard */; };
 		A849527D26A7A38C00AE4AF7 /* AdvistGroupProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849527C26A7A38C00AE4AF7 /* AdvistGroupProjectTests.swift */; };
 		A849528826A7A38C00AE4AF7 /* AdvistGroupProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849528726A7A38C00AE4AF7 /* AdvistGroupProjectUITests.swift */; };
+		A87FEDC526A9EE9500C88F9A /* sourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87FEDC426A9EE9500C88F9A /* sourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A849528326A7A38C00AE4AF7 /* AdvistGroupProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvistGroupProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A849528726A7A38C00AE4AF7 /* AdvistGroupProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvistGroupProjectUITests.swift; sourceTree = "<group>"; };
 		A849528926A7A38C00AE4AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87FEDC426A9EE9500C88F9A /* sourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				A849527326A7A38C00AE4AF7 /* Info.plist */,
 				A849526B26A7A38B00AE4AF7 /* AdvistGroupProject.xcdatamodeld */,
 				A80BA2CB26A8A1B000DADBE0 /* secondViewController.swift */,
+				A87FEDC426A9EE9500C88F9A /* sourcesViewController.swift */,
 			);
 			path = AdvistGroupProject;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A849526726A7A38B00AE4AF7 /* ViewController.swift in Sources */,
+				A87FEDC526A9EE9500C88F9A /* sourcesViewController.swift in Sources */,
 				A849526326A7A38B00AE4AF7 /* AppDelegate.swift in Sources */,
 				A849526D26A7A38B00AE4AF7 /* AdvistGroupProject.xcdatamodeld in Sources */,
 				A80BA2CC26A8A1B000DADBE0 /* secondViewController.swift in Sources */,
