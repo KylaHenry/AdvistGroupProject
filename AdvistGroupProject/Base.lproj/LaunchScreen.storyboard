@@ -18,8 +18,9 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-07-22 at 11.10.32 AM" translatesAutoresizingMaskIntoConstraints="NO" id="KMz-HM-DHL">
                                 <rect key="frame" x="39" y="282" width="316" height="201"/>
                             </imageView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="b9F-yS-yWt">
+                            <activityIndicatorView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="b9F-yS-yWt">
                                 <rect key="frame" x="182" y="483" width="51" height="62"/>
+                                <color key="color" red="0.40784313729999999" green="0.65098039220000004" blue="0.56862745100000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

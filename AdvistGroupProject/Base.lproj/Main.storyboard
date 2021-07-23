@@ -117,9 +117,17 @@ To view the Google Document
                                     <action selector="googleDoc:" destination="RXq-lF-hxZ" eventType="touchUpInside" id="izn-RC-kjr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDm-6j-zNZ">
+                                <rect key="frame" x="0.0" y="8" width="93" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
+                                <connections>
+                                    <segue destination="xKY-C8-edE" kind="show" id="cM6-BA-yvt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="J8l-Ba-JYb"/>
-                        <color key="backgroundColor" red="1" green="0.89803921568627454" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.8980392157" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="kwz-Y3-pd4"/>
                 </viewController>
@@ -228,7 +236,7 @@ To view the Google Document
                                 <rect key="frame" x="-29" y="0.0" width="472" height="894"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqA-0P-Z9A">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqA-0P-Z9A">
                                 <rect key="frame" x="133" y="39" width="149" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="40"/>
@@ -236,7 +244,7 @@ To view the Google Document
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 5.16.13 PM" translatesAutoresizingMaskIntoConstraints="NO" id="pur-4G-iBB">
-                                <rect key="frame" x="20" y="162" width="208" height="113"/>
+                                <rect key="frame" x="20" y="162" width="208" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 5.30.15 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Tea-0l-qmQ">
@@ -247,7 +255,9 @@ To view the Google Document
                                 <rect key="frame" x="156" y="312" width="104" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="SIGN HERE"/>
+                                <state key="normal" title="SIGN HERE">
+                                    <color key="titleColor" red="0.40784313729999999" green="0.65098039220000004" blue="0.56862745100000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="firstPetition:" destination="wHY-se-Vea" eventType="touchUpInside" id="SBc-45-IBe"/>
                                 </connections>
@@ -256,7 +266,9 @@ To view the Google Document
                                 <rect key="frame" x="155" y="541" width="104" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="SIGN HERE"/>
+                                <state key="normal" title="SIGN HERE">
+                                    <color key="titleColor" red="0.40784313729999999" green="0.65098039220000004" blue="0.56862745100000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="secondPetition:" destination="wHY-se-Vea" eventType="touchUpInside" id="QJM-W8-OpS"/>
                                 </connections>
@@ -265,36 +277,46 @@ To view the Google Document
                                 <rect key="frame" x="162" y="752" width="104" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="SIGN HERE"/>
+                                <state key="normal" title="SIGN HERE">
+                                    <color key="titleColor" red="0.40784313729999999" green="0.65098039220000004" blue="0.56862745100000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="thirdPetition:" destination="wHY-se-Vea" eventType="touchUpInside" id="yqP-Nn-lTT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Free Horace Peterson! Michigan man serves life in prison for murder he didn't commit " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nK-fv-mZZ">
-                                <rect key="frame" x="247" y="379" width="147" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frito-Lay union members asking for better treatment." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZK-Tc-eJM">
-                                <rect key="frame" x="227" y="173" width="170" height="91"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Free Horace Peterson! Michigan man serves life in prison for murder he didn't commit " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nK-fv-mZZ">
+                                <rect key="frame" x="247" y="379" width="147" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Justice for Daunte Wright" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4XR-2y-cbh">
-                                <rect key="frame" x="258" y="626" width="136" height="77"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frito-Lay union members asking for better treatment." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZK-Tc-eJM">
+                                <rect key="frame" x="224" y="178" width="170" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Justice for Daunte Wright" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4XR-2y-cbh">
+                                <rect key="frame" x="247" y="626" width="136" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 5.31.44 PM" translatesAutoresizingMaskIntoConstraints="NO" id="N0v-Vl-9wV">
                                 <rect key="frame" x="11" y="616" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PvF-lB-eKU">
+                                <rect key="frame" x="0.0" y="0.0" width="74" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
+                                <connections>
+                                    <segue destination="xKY-C8-edE" kind="show" id="Z1a-BC-GyK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lnQ-oS-J3d"/>
                         <color key="backgroundColor" red="1" green="0.93074813619999996" blue="0.8931763278" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -367,14 +389,12 @@ To view the Google Document
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axB-Jr-c8o">
-                                <rect key="frame" x="20" y="18" width="59" height="65"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48q-av-CNv">
+                                <rect key="frame" x="0.0" y="12" width="84" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
-                                    <segue destination="xKY-C8-edE" kind="popoverPresentation" popoverAnchorView="axB-Jr-c8o" id="83p-O6-rc3">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="xKY-C8-edE" kind="show" id="u4E-ph-qft"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -502,10 +522,10 @@ To view the Google Document
                                 <rect key="frame" x="23" y="392" width="209" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-Oi-kOb">
-                                <rect key="frame" x="12" y="15" width="54" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-Oi-kOb">
+                                <rect key="frame" x="0.0" y="0.0" width="87" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
                                     <segue destination="xKY-C8-edE" kind="popoverPresentation" popoverAnchorView="JsL-Oi-kOb" id="rd0-Wj-5iY">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
@@ -530,7 +550,7 @@ To view the Google Document
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rd0-Wj-5iY"/>
+        <segue reference="Z1a-BC-GyK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-21 at 1.23.05 PM" width="563" height="1212"/>
@@ -539,6 +559,7 @@ To view the Google Document
         <image name="Screen Shot 2021-07-21 at 10.24.07 PM" width="754" height="499"/>
         <image name="Screen Shot 2021-07-21 at 11.42.47 AM" width="544" height="1209"/>
         <image name="Screen Shot 2021-07-21 at 11.55.56 AM" width="437" height="252"/>
+        <image name="Screen Shot 2021-07-22 at 2.58.43 PM" width="171" height="211"/>
         <image name="Screen Shot 2021-07-22 at 5.16.13 PM" width="886" height="505"/>
         <image name="Screen Shot 2021-07-22 at 5.30.15 PM" width="889" height="501"/>
         <image name="Screen Shot 2021-07-22 at 5.31.44 PM" width="891" height="503"/>
