@@ -122,6 +122,8 @@ To view the Google Document
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
+                                    <action selector="toolbarClickLink:" destination="RXq-lF-hxZ" eventType="touchUpInside" id="C86-wA-aoI"/>
+                                    <action selector="toolbarImageClick:" destination="RXq-lF-hxZ" eventType="touchUpInside" id="o3r-C7-U9k"/>
                                     <segue destination="xKY-C8-edE" kind="show" id="cM6-BA-yvt"/>
                                 </connections>
                             </button>
@@ -219,6 +221,9 @@ To view the Google Document
                         <color key="backgroundColor" red="1" green="0.8980392157" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="eZb-sa-wtK"/>
+                    <connections>
+                        <outlet property="toolbarImageLink" destination="GEj-Wt-StY" id="KwU-wN-ekj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sFh-KX-6Je" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -314,7 +319,8 @@ To view the Google Document
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
-                                    <segue destination="xKY-C8-edE" kind="show" id="Z1a-BC-GyK"/>
+                                    <action selector="toolbarClickLink:" destination="wHY-se-Vea" eventType="touchUpInside" id="EXv-lt-OEK"/>
+                                    <segue destination="xKY-C8-edE" kind="show" id="PTV-xx-4gG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -322,6 +328,9 @@ To view the Google Document
                         <color key="backgroundColor" red="1" green="0.93074813619999996" blue="0.8931763278" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="EU0-O4-IO6"/>
+                    <connections>
+                        <outlet property="toolbarImageClick" destination="PvF-lB-eKU" id="EQS-cr-3xy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z03-gb-69P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -394,6 +403,8 @@ To view the Google Document
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
+                                    <action selector="toolBarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RqM-cm-4L0"/>
+                                    <action selector="toolbarImageClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yaf-5A-dJH"/>
                                     <segue destination="xKY-C8-edE" kind="show" id="u4E-ph-qft"/>
                                 </connections>
                             </button>
@@ -527,9 +538,9 @@ To view the Google Document
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
-                                    <segue destination="xKY-C8-edE" kind="popoverPresentation" popoverAnchorView="JsL-Oi-kOb" id="rd0-Wj-5iY">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <action selector="toolbarImageClick:" destination="dPx-bm-EIN" eventType="touchUpInside" id="G96-Aj-BPo"/>
+                                    <action selector="toolbarLink:" destination="dPx-bm-EIN" eventType="touchUpInside" id="red-cM-SAi"/>
+                                    <segue destination="xKY-C8-edE" kind="show" id="Yr8-AZ-iPb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -550,7 +561,7 @@ To view the Google Document
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Z1a-BC-GyK"/>
+        <segue reference="Yr8-AZ-iPb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-21 at 1.23.05 PM" width="563" height="1212"/>

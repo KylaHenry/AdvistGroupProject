@@ -9,10 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-   
-    @IBAction func toolBarButton(_ sender: Any) {
-    }
-    
     @IBAction func sourcesButton(_ sender: Any) {
     }
     
@@ -24,6 +20,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func toolbarImageClick(_ sender: Any) {
+    }
+    
 }
 

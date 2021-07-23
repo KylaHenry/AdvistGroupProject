@@ -9,6 +9,9 @@ import UIKit
 
 class petitionsViewController: UIViewController {
 
+    @IBOutlet weak var toolbarImageClick: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

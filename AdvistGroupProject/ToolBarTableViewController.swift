@@ -8,7 +8,9 @@
 import UIKit
 
 class ToolBarTableViewController: UITableViewController {
-
+    
+    @IBOutlet weak var toolbarImageLink: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

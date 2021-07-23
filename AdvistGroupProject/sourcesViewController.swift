@@ -9,6 +9,9 @@ import UIKit
 
 class sourcesViewController: UIViewController {
 
+    @IBAction func toolbarImageClick(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -8,9 +8,9 @@
 import UIKit
 
 class secondViewController: UIViewController {
-    
-    
-    
+
+    @IBAction func toolbarImageClick(_ sender: Any) {
+    }
     
     @IBAction func test(_sender: Any){
         print("test")
