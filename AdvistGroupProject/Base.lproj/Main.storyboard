@@ -7,6 +7,95 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="ncJ-lW-YjF">
+            <objects>
+                <viewController id="wX0-pv-L4Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wu0-1k-2cA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 6.03.41 PM" translatesAutoresizingMaskIntoConstraints="NO" id="GEj-Wt-StY">
+                                <rect key="frame" x="-12" y="0.0" width="207" height="857"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3e1-If-KgU">
+                                <rect key="frame" x="50" y="120" width="83" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="LOG IN">
+                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTQ-Zw-6z5">
+                                <rect key="frame" x="53" y="171" width="77" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="SIGN IN">
+                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4M-Au-Jhy">
+                                <rect key="frame" x="37" y="214" width="109" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="PETITIONS">
+                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wHY-se-Vea" kind="show" id="cDh-OS-v4O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSt-uO-t71">
+                                <rect key="frame" x="31" y="263" width="120" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="DONATIONS">
+                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtF-FG-Pmi">
+                                <rect key="frame" x="37" y="306" width="108" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="TRENDING">
+                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vlh-jM-rQh">
+                                <rect key="frame" x="49" y="349" width="84" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="SEARCH">
+                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHY-Gc-Ciy">
+                                <rect key="frame" x="53" y="392" width="79" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="SAFETY">
+                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQP-pa-arp">
+                                <rect key="frame" x="41" y="435" width="102" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                                <state key="normal" title="ABOUT US">
+                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="r78-Wd-wcw"/>
+                        <color key="backgroundColor" red="1" green="0.8980392157" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="j7b-qR-hRO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rm7-cm-gue" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1270" y="124"/>
+        </scene>
         <!--Sources View Controller-->
         <scene sceneID="XMD-0z-eI9">
             <objects>
@@ -117,14 +206,12 @@ To view the Google Document
                                     <action selector="googleDoc:" destination="RXq-lF-hxZ" eventType="touchUpInside" id="izn-RC-kjr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDm-6j-zNZ">
-                                <rect key="frame" x="0.0" y="8" width="93" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBf-iI-Fnz">
+                                <rect key="frame" x="0.0" y="0.0" width="95" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
+                                <state key="normal" title="Button" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
-                                    <action selector="toolbarClickLink:" destination="RXq-lF-hxZ" eventType="touchUpInside" id="C86-wA-aoI"/>
-                                    <action selector="toolbarImageClick:" destination="RXq-lF-hxZ" eventType="touchUpInside" id="o3r-C7-U9k"/>
-                                    <segue destination="xKY-C8-edE" kind="show" id="cM6-BA-yvt"/>
+                                    <segue destination="wX0-pv-L4Y" kind="show" id="Fps-Bm-BUA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -136,98 +223,6 @@ To view the Google Document
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5vM-BG-of8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53.623188405797109" y="816.96428571428567"/>
-        </scene>
-        <!--Tool Bar Table View Controller-->
-        <scene sceneID="Nx0-8C-Xvr">
-            <objects>
-                <viewController id="xKY-C8-edE" customClass="ToolBarTableViewController" customModule="AdvistGroupProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZZ1-mj-5Nc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 6.03.41 PM" translatesAutoresizingMaskIntoConstraints="NO" id="GEj-Wt-StY">
-                                <rect key="frame" x="-11" y="0.0" width="207" height="857"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3e1-If-KgU">
-                                <rect key="frame" x="51" y="107" width="83" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="LOG IN">
-                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTQ-Zw-6z5">
-                                <rect key="frame" x="55" y="159" width="77" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="SIGN IN">
-                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4M-Au-Jhy">
-                                <rect key="frame" x="41" y="201" width="109" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="PETITIONS">
-                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="wHY-se-Vea" kind="show" id="cDh-OS-v4O"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSt-uO-t71">
-                                <rect key="frame" x="33" y="251" width="120" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="DONATIONS">
-                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtF-FG-Pmi">
-                                <rect key="frame" x="39" y="296" width="108" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="TRENDING">
-                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vlh-jM-rQh">
-                                <rect key="frame" x="51" y="339" width="84" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="SEARCH">
-                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHY-Gc-Ciy">
-                                <rect key="frame" x="53" y="382" width="79" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="SAFETY">
-                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQP-pa-arp">
-                                <rect key="frame" x="43" y="426" width="102" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <state key="normal" title="ABOUT US">
-                                    <color key="titleColor" red="0.65882354970000001" green="0.73333334920000004" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="CHo-sn-28e"/>
-                        <color key="backgroundColor" red="1" green="0.8980392157" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="eZb-sa-wtK"/>
-                    <connections>
-                        <outlet property="toolbarImageLink" destination="GEj-Wt-StY" id="KwU-wN-ekj"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sFh-KX-6Je" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-781.15942028985512" y="77.678571428571431"/>
         </scene>
         <!--Petitions View Controller-->
         <scene sceneID="keN-fp-DCi">
@@ -248,10 +243,6 @@ To view the Google Document
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 5.16.13 PM" translatesAutoresizingMaskIntoConstraints="NO" id="pur-4G-iBB">
-                                <rect key="frame" x="20" y="162" width="208" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 5.30.15 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Tea-0l-qmQ">
                                 <rect key="frame" x="20" y="390" width="223" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -314,23 +305,23 @@ To view the Google Document
                                 <rect key="frame" x="11" y="616" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PvF-lB-eKU">
-                                <rect key="frame" x="0.0" y="0.0" width="74" height="77"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWe-DD-8fO">
+                                <rect key="frame" x="0.0" y="0.0" width="77" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
+                                <state key="normal" title="Button" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
-                                    <action selector="toolbarClickLink:" destination="wHY-se-Vea" eventType="touchUpInside" id="EXv-lt-OEK"/>
-                                    <segue destination="xKY-C8-edE" kind="show" id="PTV-xx-4gG"/>
+                                    <segue destination="wX0-pv-L4Y" kind="show" id="1sN-Ph-hvG"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 5.16.13 PM" translatesAutoresizingMaskIntoConstraints="NO" id="pur-4G-iBB">
+                                <rect key="frame" x="20" y="156" width="208" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lnQ-oS-J3d"/>
                         <color key="backgroundColor" red="1" green="0.93074813619999996" blue="0.8931763278" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="EU0-O4-IO6"/>
-                    <connections>
-                        <outlet property="toolbarImageClick" destination="PvF-lB-eKU" id="EQS-cr-3xy"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z03-gb-69P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -398,14 +389,12 @@ To view the Google Document
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48q-av-CNv">
-                                <rect key="frame" x="0.0" y="12" width="84" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZu-qi-WR6">
+                                <rect key="frame" x="0.0" y="17" width="87" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
+                                <state key="normal" title="Button" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
-                                    <action selector="toolBarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RqM-cm-4L0"/>
-                                    <action selector="toolbarImageClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yaf-5A-dJH"/>
-                                    <segue destination="xKY-C8-edE" kind="show" id="u4E-ph-qft"/>
+                                    <segue destination="wX0-pv-L4Y" kind="show" id="MTu-CU-f5b"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -529,20 +518,18 @@ To view the Google Document
                                     <action selector="secondURL:" destination="dPx-bm-EIN" eventType="touchUpInside" id="Yiz-Q5-kem"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.20.42 PM" translatesAutoresizingMaskIntoConstraints="NO" id="VrB-yb-bRr">
-                                <rect key="frame" x="23" y="392" width="209" height="138"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbF-Ie-gJM">
+                                <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-Oi-kOb">
-                                <rect key="frame" x="0.0" y="0.0" width="87" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
+                                <state key="normal" title="Button" image="Screen Shot 2021-07-22 at 2.58.43 PM"/>
                                 <connections>
-                                    <action selector="toolbarImageClick:" destination="dPx-bm-EIN" eventType="touchUpInside" id="G96-Aj-BPo"/>
-                                    <action selector="toolbarLink:" destination="dPx-bm-EIN" eventType="touchUpInside" id="red-cM-SAi"/>
-                                    <segue destination="xKY-C8-edE" kind="show" id="Yr8-AZ-iPb"/>
+                                    <segue destination="wX0-pv-L4Y" kind="show" id="ilI-eY-ISK"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.20.42 PM" translatesAutoresizingMaskIntoConstraints="NO" id="VrB-yb-bRr">
+                                <rect key="frame" x="15" y="373" width="209" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XDu-6w-8Th"/>
                         <color key="backgroundColor" red="0.99855619669999995" green="0.89909386629999999" blue="0.83136063810000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -561,7 +548,8 @@ To view the Google Document
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Yr8-AZ-iPb"/>
+        <segue reference="cDh-OS-v4O"/>
+        <segue reference="1sN-Ph-hvG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-21 at 1.23.05 PM" width="563" height="1212"/>
